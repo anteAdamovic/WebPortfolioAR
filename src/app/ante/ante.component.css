@@ -1,0 +1,119 @@
+body {
+    margin: 0 auto !important;
+}
+
+/* Content */
+.content-wrapper {
+
+}
+.content {
+
+}
+
+ /* Intro */
+.intro {
+    min-height: 900px;
+    background-image: url('assets/programmerIntro.jpg');
+    background-size: 100% 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.intro-separator {
+    height: 300px;
+}
+.intro article {
+    margin: 0 15%;
+    padding: 15px 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* About */
+.about {
+    background-color: rgb(134, 204, 204);
+}
+.about .profile-image {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    border-radius: 100px;
+    background-image: url('assets/profilePic.jpg');
+    background-size: 200px;
+}
+.about article {
+    margin: 0 15%;
+    padding: 100px 20px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: lightcyan;
+}
+
+/* Experience */
+.separator-image {
+    min-height: 900px;
+    background-image: url('assets/programming.jpg');
+    background-size: 100% 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.experience {
+    background-color: #62A3B5;
+}
+.experience article {
+    margin: 0 15%;
+    padding: 200px 20px;
+    border-radius: 10px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: lightcyan;
+}
+.experience .zaba-logo {
+    background-image: url('assets/zabaLogo.png');
+    height: 256px;
+    background-size: 100% 256px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.separator-image-2 {
+    min-height: 900px;
+    background-image: url('assets/thinkTwiceCodeOnce.png');
+    background-size: 100% 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Contact */
+.contact {
+    padding-bottom: 200px;
+    background-color: #0081BA;
+    color: lightcyan;
+    font-size: 36px;
+    text-align: center;
+}
+.contact a {
+    cursor: pointer;
+    text-decoration: none;
+}
+.contact a {color:lightcyan;}      /* unvisited link */
+.contact a:visited {color:lightcyan;}  /* visited link */
+.contact a:hover {color:lightcyan;}  /* mouse over link */
+.contact a:active {color:lightcyan;}  /* selected link */
+
+.contact i {
+    font-size: 60px;
+    margin: 20px;
+}

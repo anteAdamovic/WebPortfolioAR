@@ -1,0 +1,120 @@
+body {
+    margin: 0 auto !important;
+}
+
+/* Content */
+.content-wrapper {
+
+}
+.content {
+
+}
+
+ /* Intro */
+.intro {
+    min-height: 900px;
+    background-image: url('assets/startMarketing.jpg');
+    background-size: 100% 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.intro-separator {
+    height: 300px;
+}
+.intro article {
+    margin: 0 15%;
+    padding: 15px 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* About */
+.about {
+    background-color: #ABD1D2;
+}
+.about .profile-image {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    border-radius: 100px;
+    background-image: url('assets/rebekaProfile.jpg');
+    background-size: 200px;
+}
+.about article {
+    margin: 0 15%;
+    padding: 100px 20px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: lightcyan;
+}
+
+/* Experience */
+.separator-image {
+    min-height: 900px;
+    background-image: url('assets/sendMarketing.jpg');
+    background-size: 100% 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.experience {
+    background-color: #5BBAC1;
+}
+.experience article {
+    margin: 0 15%;
+    padding: 200px 20px;
+    border-radius: 10px;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color: lightcyan;
+}
+.experience .zaba-logo {
+    background-image: url('assets/zabaLogo.png');
+    height: 256px;
+    background-size: 100% 256px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.separator-image-2 {
+    height: 800px;
+}
+
+/* Contact */
+.contact {
+    min-height: 900px;
+    background-image: url('assets/contact-background.jpg');
+    background-size: 100% 100%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    background-color: #E2E2E2;
+    color: #3B6CD8;
+    font-size: 36px;
+    text-align: center;
+}
+.contact a {
+    cursor: pointer;
+    text-decoration: none;
+}
+.contact a {color:#3B6CD8;}      /* unvisited link */
+.contact a:visited {color:#3B6CD8;}  /* visited link */
+.contact a:hover {color:#3B6CD8;}  /* mouse over link */
+.contact a:active {color:#3B6CD8;}  /* selected link */
+
+.contact i {
+    font-size: 60px;
+    margin: 20px;
+}

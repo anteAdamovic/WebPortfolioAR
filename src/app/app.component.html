@@ -1,3 +1,14 @@
-<h1>
-  {{title}}
-</h1>
+<div class='header'>
+    <div class='ante-link' (click)='showAnte()'>
+        <div class='ante-image'></div>
+        Ante
+    </div>
+    <div class='team'>
+        Team Pahuljice
+    </div>
+    <div class='rebeka-link' (click)='showRebeka()'>
+        <div class='rebeka-image'></div>
+        Rebeka
+    </div>
+</div>
+<router-outlet></router-outlet>

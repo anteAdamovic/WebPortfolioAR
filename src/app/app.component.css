@@ -1,0 +1,45 @@
+.header {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.team {
+    font-size: 30px;
+    width: 100%;
+    position: absolute;
+}
+
+.ante-link, .rebeka-link {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ante-link {
+    float: left;
+}
+
+.ante-image {
+    background-image: url('assets/profilePic.jpg');
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+.rebeka-link {
+    float: right;
+}
+
+.rebeka-image {
+    background-image: url('assets/rebekaProfile.jpg');
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
